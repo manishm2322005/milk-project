@@ -1,0 +1,10 @@
+@"
+node_modules/
+.expo/
+android/.gradle/
+android/local.properties
+android/app/build/
+.env
+.env.*
+!.env.example
+"@ | Set-Content .gitignore
